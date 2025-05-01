@@ -29,7 +29,6 @@ INSERT INTO items (name, label, weight, rare, can_remove) VALUES
 ('titanium', 'Titane', 1, 0, 1); -- voir pour drop dans supérette
 ('steel', 'Acier', 1, 0, 1); -- voir pour drop dans supérette
 
-
 -- Création des colonnes pour gérer la progression de l'user
 ALTER TABLE users
 ADD COLUMN total_craft_fa INT(11) DEFAULT 0,
