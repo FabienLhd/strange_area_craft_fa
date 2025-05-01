@@ -16,6 +16,13 @@ Config.CraftZone2 = {
     radius = 1.5
 }
 
+Config.Blip = {
+    Sprite = 140,
+    Scale = 0.6, 
+    Colour = 1, 
+    Name = "Zone de fabrication étrange",
+}
+
 -- Définition des paliers et des exigences de progression
 Config.CraftingTiers = {
     [1] = 10, -- +10
@@ -300,11 +307,4 @@ Config.CraftingRecipes = {
             {name = "titanium", label = "Titane", quantity = 5}
         }
     }
-}
-
-Config.Blip = {
-    Sprite = 140,
-    Scale = 0.6, 
-    Colour = 1, 
-    Name = "Zone de fabrication étrange",
 }

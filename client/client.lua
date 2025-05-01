@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
     end
 
-    local blip = AddBlipForCoord(Config.PNJCoords)
+    local blip = AddBlipForCoord(Config.CraftZone2)
     SetBlipSprite(blip, Config.Blip.Sprite)
     SetBlipScale(blip, Config.Blip.Scale)
     SetBlipColour(blip, Config.Blip.Colour)
