@@ -25,9 +25,10 @@ INSERT INTO items (name, label, weight, rare, can_remove, `desc`) VALUES
 ('trigger_autogun', 'Gâchette Arme Automatique', 0.5, 0, 1, NULL),
 ('grip_autogun', 'Crosse Arme Automatique', 1.5, 0, 1, NULL),
 
-
 -- Métaux de craft 
 ('titanium', 'Titane', 1, 0, 1, NULL); -- voir pour drop dans supérette
+('steel', 'Acier', 1, 0, 1, NULL); -- voir pour drop dans supérette
+
 
 -- Création des colonnes pour gérer la progression de l'user
 ALTER TABLE users
